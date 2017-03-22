@@ -1,6 +1,11 @@
 "use strict";
 
-const { exec, rm, set, test, find, echo } = require("shelljs");
+var shelljs = require("shelljs");
+
+var set = shelljs.set
+var find = shelljs.find
+var echo = shelljs.echo
+var exec = shelljs.exec
 
 set("-e");
 // set('-v')
