@@ -1,0 +1,6 @@
+{
+    "rulesDirectory": "./build/rules",
+    "rules": {
+        "no-only": [ true ] 
+    }
+}

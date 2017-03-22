@@ -1,0 +1,10 @@
+import test from 'ava'
+
+test.only('foo', t => {
+~~~~~~~~~ [don't use only]
+  t.true(1 === 1)
+})
+
+test('foo', t => {
+  t.true(1 === 1)
+})
