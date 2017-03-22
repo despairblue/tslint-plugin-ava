@@ -1,6 +1,6 @@
 {
   "name": "tslint-plugin-ava",
-  "version": "0.0.1-1",
+  "version": "0.1.0",
   "description": "TSLint rules for AVA",
   "main": "tslint-plugin-ava",
   "keywords": [
