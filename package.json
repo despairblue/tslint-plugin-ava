@@ -1,6 +1,6 @@
 {
   "name": "tslint-plugin-ava",
-  "version": "0.0.1",
+  "version": "0.0.1-0",
   "description": "TSLint rules for AVA",
   "main": "tslint-plugin-ava",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "author": "Danny Arnold",
   "license": "Apache-2.0",
-  "repository": "git@bitbucket.org:wunderflats/jobs.git",
+  "repository": "git@github.com:despairblue/tslint-plugin-ava.git",
   "dependencies": {
     "tslint": "^4.5.1",
     "typescript": "^2.2.1"
