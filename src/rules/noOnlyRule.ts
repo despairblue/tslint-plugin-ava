@@ -12,7 +12,7 @@ export class Rule extends Rules.AbstractRule {
 // The walker takes care of all the work.
 class NoImportsWalker extends RuleWalker {
   public visitPropertyAccessExpression(node: ts.PropertyAccessExpression) {
-    if ((<any> node.expression).text === "test" && node.name.text === "only") {
+    if ((node.expression as any).text === "test" && node.name.text === "only") {
       // create a failure at the current position
       this.addFailure(this.createFailure(node.getStart(), node.getWidth(), Rule.FAILURE_STRING));
     }
